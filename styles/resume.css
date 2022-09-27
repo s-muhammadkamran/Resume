@@ -1,0 +1,83 @@
+/* Write CSS Here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(69, 89, 163);
+    color: wheat;
+    padding: 20px;
+    box-sizing: 25%;
+ 
+}
+.right {
+    position: initial;
+    background-color: rgb(148, 159, 196);
+    padding: 20px;
+    box-sizing: 75%;
+ 
+}
+.Contact, .Skills, .Languages, .Hobbies, .Interests,
+.Summary, .Experience, .Education, .Projects  {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.image {
+    margin-bottom: 30px;
+    margin-top: 5px;    
+    text-align: center;
+}
+.h2 {
+    background-color: rgb(5, 81, 125);
+}
+
+a {
+    color: grey;
+}
+
+.tdCenter {
+    text-align: center;
+}
+
+.iconsmall {
+    width: 40px;
+    height: 40px;
+}
+
+.iconmedium {
+    width: 60px;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+.iconlarge {
+    width: 80px;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+.list {
+   color: rgb(35, 17, 4); 
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 20px;
+}
