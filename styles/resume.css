@@ -20,7 +20,7 @@ body {
 }
 .left {
     position: initial;
-    background-color: rgb(69, 89, 163);
+    background-color: rgb(84, 89, 103) /*69, 89, 163)*/;
     color: wheat;    
     padding: 20px 20px 20px 30px;
     box-sizing: 25%;
@@ -28,7 +28,7 @@ body {
 }
 .right {
     position: initial;
-    background-color: rgb(148, 159, 196);
+    background-color: rgb(99, 135, 155) /*rgb(148, 159, 196)*/;
     padding: 20px 20px 20px 30px;
     box-sizing: 75%;
     width: 100%;  
@@ -81,7 +81,7 @@ body {
 .profilePic {
     border: 2px solid gray;
     border-radius: 50%;
-    width:160px;
-    height:160px;
-    box-shadow: 35px 5px rgb(23, 35, 103);
+    width:150px;
+    height:150px;
+    box-shadow: 15px 5px 10px 10px rgb(51, 54, 63);
 }
