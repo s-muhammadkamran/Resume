@@ -2,6 +2,7 @@
 
     <head>	
         <link rel="stylesheet" href="./styles/resume.css">
+        <script type="text/javascript" src="./scripts/script.js"> </script>
     </head>
 
     <body>
@@ -9,38 +10,37 @@
             <div class="left">
                 <div class="image">
                     <img src= "./img/profilepic.PNG"
-                        alt="profile picture"
+                        alt="Profile Picture" onmouseover="showToolTip(this)"
                         style="width:160px;height:160px;">                    
                 </div>                
                 <div class="Certifications">
                     <p>
-                        <img src="./img/MCTS.png" alt="MCTS MS Dynamics CRM 2011" style="margin-right: 20px; margin-bottom: 10px; vertical-align: middle;"></img>
+                        <img src="./img/MCTS.png" alt="MCTS MS Dynamics CRM 2011" onmouseover="showToolTip(this)" style="margin-right: 20px; margin-bottom: 10px; vertical-align: middle;"></img>
                     </p>
                     <p>
-                        <img src="./img/DesignThinking.png" alt="Design Thinking - IDEO U" class="iconmedium"></a> &nbsp;
-                        <img src="./img/Devopslogo.png" alt="DevOpsLeader - DevOps Institute" class="iconlarge"></a> &nbsp;
-                        <img src="./img/ICP.png" alt="ICAgile Certified Professional"  class="iconlarge"></a> &nbsp;                        
+                        <img src="./img/DesignThinking.png" alt="Design Thinking - IDEO U" onmouseover="showToolTip(this)" class="iconmedium"></a> &nbsp;
+                        <img src="./img/ICP.png" alt="ICAgile Certified Professional" onmouseover="showToolTip(this)"  class="iconlarge"></a> &nbsp;                        
                     </p>                    
+                    <p>
+                        <img src="./img/Devopslogo.png" alt="DevOpsLeader - DevOps Institute" onmouseover="showToolTip(this)" class="iconlarge" style="height:80px; width:80px"></a> &nbsp;
+                    </p>
                 </div>                
                 <br/>
                 <hr/>                
                 <div class="Contact">
-                    <!--<h2 style="margin-bottom: 20px;">Contacts</h2>-->
                     <p>
-                        <img src="./img/phonelogo.png" alt="Cell No." class="iconsmall" style="margin-right: 20px; margin-bottom: 10px; vertical-align: middle;">+966534325691</img>
+                        <div style="font-size: 18px;"><img src="./img/phonelogo.png" alt="Cell No." onmouseover="showToolTip(this)" class="iconsmall" style="margin-right: 10px; margin-bottom: 10px; vertical-align: middle;">+966 053 4325691</img></div>
                     </p>
                     <p>
-                        <a href="mailto:s.muhammadkamran@gmail.com" target="new"><img src="./img/emaillogo.png" alt="Email" class="iconsmall"></a> &nbsp;
-                        <a href="https://wa.me/966534325691" target="new"><img src="./img/whatsapplogo.png" alt="WhatsApp" class="iconsmall"></a> &nbsp;                                                
-                        <a href="https://www.facebook.com/s.muhammadkamran" target="new"><img src="./img/fblogo.jpg" alt="Facebook" class="iconsmall"></a> &nbsp;
-                        <a href="https://twitter.com/Muhamma56002569" target="new"><img src="./img/twitterlogo.jfif" alt="Twitter" class="iconsmall"></a> &nbsp;                        
-                        <a href="https://linkedin.com/in/smkamran" target="new"><img src="./img/linkedinlogo.jfif" alt="Linkedin" class="iconsmall"></a> &nbsp;
-                    </p>
-                    <p>
-                        <a href="https://github.com/s-muhammadkamran" target="new"><img src="./img/gitlogo.png" alt="GitHub" class="iconsmall"></a> &nbsp;
-                        <a href="https://blogger.com/profile/10522625147563875600" target="new"><img src="./img/bloggerlogo.png" alt="Blogger" class="iconsmall"></a> 
-                        <a href="https://www.kaggle.com/muhammadkamransyed" target="new"><img src="./img/kagglelogo.jfif" alt="Kaggle" class="iconmedium"></a> &nbsp;
-                        <a href="https://stackoverflow.com/users/93963/s-m-kamran" target="new"><img src="./img/StackOverflowLogo.png" alt="Stackoverflow" class="iconmedium"></a> &nbsp;                        
+                        <a href="mailto:s.muhammadkamran@gmail.com" target="new"><img src="./img/emaillogo.png" alt="Email" onmouseover="showToolTip(this)" class="iconsmall"></a>
+                        <a href="https://wa.me/966534325691" target="new"><img src="./img/whatsapplogo.png" alt="WhatsApp" onmouseover="showToolTip(this)" class="iconsmall"></a>
+                        <a href="https://www.facebook.com/s.muhammadkamran" target="new"><img src="./img/fblogo.jpg" alt="Facebook" onmouseover="showToolTip(this)" class="iconsmall"></a>
+                        <a href="https://twitter.com/Muhamma56002569" target="new"><img src="./img/twitterlogo.jfif" alt="Twitter" onmouseover="showToolTip(this)" class="iconsmall"></a>
+                        <a href="https://linkedin.com/in/smkamran" target="new"><img src="./img/linkedinlogo.jfif" alt="Linkedin" onmouseover="showToolTip(this)" class="iconsmall"></a>
+                        <a href="https://github.com/s-muhammadkamran" target="new"><img src="./img/gitlogo.png" alt="GitHub" onmouseover="showToolTip(this)" class="iconsmall"></a>
+                        <a href="https://blogger.com/profile/10522625147563875600" target="new"><img src="./img/bloggerlogo.png" alt="Blogger" onmouseover="showToolTip(this)" class="iconsmall"></a>
+                        <a href="https://stackoverflow.com/users/93963/s-m-kamran" target="new"><img src="./img/StackOverflowLogo.png" alt="Stackoverflow" onmouseover="showToolTip(this)" class="iconsmall"></a>
+                        <a href="https://www.kaggle.com/muhammadkamransyed" target="new"><img src="./img/kagglelogo.webp" alt="Kaggle" onmouseover="showToolTip(this)" class="iconsmall"></a>
                     </p>
                 </div>  
                 <hr/>              
@@ -75,8 +75,8 @@
                 <div class="Hobbies">
                     <h2>Hobbies</h2>
                     <ul class="list">
-                        <li>Cricket &nbsp;&nbsp;<a href="https://cricclubs.com/RiyadhCricketAssociation/viewPlayer.do?playerId=378371" target="new"><img src="./img/cricketlogo.jfif" alt="CricClub Profile" class="iconsmall"></img></a>&nbsp;</li>
-                        <li>Swimming</li>
+                        <li>Cricket &nbsp;&nbsp;<a href="https://cricclubs.com/RiyadhCricketAssociation/viewPlayer.do?playerId=378371" target="new"><img src="./img/rcalogo.jpg" alt="RCA Profile" class="iconsmall" onmouseover="showToolTip(this)"></img></a>&nbsp; <a href="https://cricclubs.com/RCLKSA/viewPlayer.do?playerId=2523543" target="new"><img src="./img/rcllogo.jpg" alt="RCL Profile" onmouseover="showToolTip(this)" class="iconsmall"></img></a>&nbsp;</li>
+                        <li alt="Swimming Karo">Swimming</li>
                     </ul>
                 </div>                
             </div>
@@ -166,17 +166,5 @@
                 </div>
             </div>
         </div>
-
-        <script>
-            //image objects
-            var imageEls = document.getElementsByTagName("img");
-            //Iterating
-            for(var i=0;i<imageEls.length;i++){
-               imageEls[i].title=imageEls[i].alt;
-               //OR
-               //imageEls[i].title="Title of your choice";
-            }
-        </script>
-
     </body>
 </html>
